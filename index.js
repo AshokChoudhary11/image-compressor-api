@@ -6,7 +6,7 @@ const app = express();
 const PORT = 8000;
 
 // mongoose.connect(
-//   "mongodb+srv://2019civashok7500:2019civashok7500@cluster0.mg0zg97.mongodb.net/?retryWrites=true&w=majority"
+//   "mongoDB ulr"
 // );
 
 app.use(morgan("tiny"));

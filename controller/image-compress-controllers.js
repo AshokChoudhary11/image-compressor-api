@@ -4,7 +4,6 @@ export const testing = (req, res) => {
   res.status(200).json({ message: "hello world" });
 };
 export const compressImage = async (req, res) => {
-  console.log("trse");
   try {
     const image = req.file.buffer;
     const resolution = req.body.resolution * 1;
